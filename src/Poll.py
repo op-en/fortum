@@ -14,7 +14,7 @@ config = {
     'fortum_password': os.environ.get('FORTUM_PASSWORD','password'),
     'influx_host': os.environ.get('INFLUX_HOST','192.168.99.100'),
     'influx_port': int(os.environ.get('INFLUX_PORT',8086)),
-    'influx_user': os.environ.get('INFLUX_PORT','root'),
+    'influx_user': os.environ.get('INFLUX_USER','root'),
     'influx_password': os.environ.get('INFLUX_PASSWORD','root'),
     'data_series': os.environ.get('DATA_SERIES','11996,15953,11995'),
     'verbose': (os.environ.get('VERBOSE','True') == 'True')
