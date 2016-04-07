@@ -25,6 +25,7 @@ ENV INFLUX_USER user
 ENV INFLUX_PASSWORD password
 ENV DATA_SERIES 11996,15953,11995
 ENV VERBOSE False
+ENV STARTUP_TIMEOUT 5
 
 # Go go go!
 CMD ["python","-u","/opt/fortum/Poll.py"]
